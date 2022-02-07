@@ -24,7 +24,7 @@ The scripts in the folder messageQueue demonstrate interprocess commnuication wi
 
 open a terminal an start the server
 ```
-gcc -Wall -o server MyServer.c
+gcc -Wall -o server server.c
 
 ./server
 
@@ -32,7 +32,7 @@ gcc -Wall -o server MyServer.c
 
 open a second terminal and start one client
 ```
-gcc -Wall -o client1 MyClient.c
+gcc -Wall -o client1 client.c
 
 ./client1
 
